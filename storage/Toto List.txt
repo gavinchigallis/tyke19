@@ -1,0 +1,31 @@
+Make a romdom select of project call it feature
+
+Have an inventory table that keeps inventory related
+details for every project like below:
+Instock,
+
+
+and and inventory history table
+that records purchases
+Purchase,
+date purchase,
+
+long term have an accounting section:
+there for when so purchase takes place it makes
+a journal entry and such, 
+
+
+Tasks by layer:
+[Database level]
+-Add trigger so when every account is created for a user it creates a shopping cart
+-add if statment to shopping cart storage procedure to show the sale price
+
+[API level]
+-make endpoint for shopping cart, add to shopping cart, remove from shopping cart
+
+
+[Front end level]
+-add if statemenst to only show sale tag if there is a sale
+
+
+
